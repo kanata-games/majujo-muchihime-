@@ -1,0 +1,358 @@
+{
+ "frames": [
+  {
+   "name": "rosalinde_idle_1",
+   "x": 0,
+   "y": 0,
+   "w": 48,
+   "h": 64,
+   "anchor": {
+    "feet": [
+     24,
+     62
+    ],
+    "body_offset_x": 0
+   }
+  },
+  {
+   "name": "rosalinde_idle_2",
+   "x": 48,
+   "y": 0,
+   "w": 48,
+   "h": 64,
+   "anchor": {
+    "feet": [
+     24,
+     62
+    ],
+    "body_offset_x": 0
+   }
+  },
+  {
+   "name": "rosalinde_walk_1",
+   "x": 96,
+   "y": 0,
+   "w": 48,
+   "h": 64,
+   "anchor": {
+    "feet": [
+     24,
+     62
+    ],
+    "body_offset_x": 0
+   }
+  },
+  {
+   "name": "rosalinde_walk_2",
+   "x": 144,
+   "y": 0,
+   "w": 48,
+   "h": 64,
+   "anchor": {
+    "feet": [
+     24,
+     62
+    ],
+    "body_offset_x": 0
+   }
+  },
+  {
+   "name": "rosalinde_walk_3",
+   "x": 192,
+   "y": 0,
+   "w": 48,
+   "h": 64,
+   "anchor": {
+    "feet": [
+     24,
+     62
+    ],
+    "body_offset_x": 0
+   }
+  },
+  {
+   "name": "rosalinde_walk_4",
+   "x": 240,
+   "y": 0,
+   "w": 48,
+   "h": 64,
+   "anchor": {
+    "feet": [
+     24,
+     62
+    ],
+    "body_offset_x": 0
+   }
+  },
+  {
+   "name": "rosalinde_jump_1",
+   "x": 288,
+   "y": 0,
+   "w": 48,
+   "h": 64,
+   "anchor": {
+    "feet": [
+     24,
+     62
+    ],
+    "body_offset_x": 0
+   }
+  },
+  {
+   "name": "rosalinde_jump_2",
+   "x": 336,
+   "y": 0,
+   "w": 48,
+   "h": 64,
+   "anchor": {
+    "feet": [
+     24,
+     62
+    ],
+    "body_offset_x": 0
+   }
+  },
+  {
+   "name": "rosalinde_crouch_1",
+   "x": 384,
+   "y": 0,
+   "w": 48,
+   "h": 64,
+   "anchor": {
+    "feet": [
+     24,
+     62
+    ],
+    "body_offset_x": 0
+   }
+  },
+  {
+   "name": "rosalinde_whip_1",
+   "x": 432,
+   "y": 0,
+   "w": 128,
+   "h": 64,
+   "anchor": {
+    "feet": [
+     24,
+     62
+    ],
+    "body_offset_x": 0
+   }
+  },
+  {
+   "name": "rosalinde_whip_2",
+   "x": 560,
+   "y": 0,
+   "w": 128,
+   "h": 64,
+   "anchor": {
+    "feet": [
+     24,
+     62
+    ],
+    "body_offset_x": 0
+   }
+  },
+  {
+   "name": "rosalinde_whip_3",
+   "x": 688,
+   "y": 0,
+   "w": 128,
+   "h": 64,
+   "anchor": {
+    "feet": [
+     24,
+     62
+    ],
+    "body_offset_x": 0
+   }
+  },
+  {
+   "name": "rosalinde_crouchwhip_1",
+   "x": 816,
+   "y": 0,
+   "w": 128,
+   "h": 64,
+   "anchor": {
+    "feet": [
+     24,
+     62
+    ],
+    "body_offset_x": 0
+   }
+  },
+  {
+   "name": "rosalinde_crouchwhip_2",
+   "x": 944,
+   "y": 0,
+   "w": 128,
+   "h": 64,
+   "anchor": {
+    "feet": [
+     24,
+     62
+    ],
+    "body_offset_x": 0
+   }
+  },
+  {
+   "name": "rosalinde_crouchwhip_3",
+   "x": 1072,
+   "y": 0,
+   "w": 128,
+   "h": 64,
+   "anchor": {
+    "feet": [
+     24,
+     62
+    ],
+    "body_offset_x": 0
+   }
+  },
+  {
+   "name": "rosalinde_hurt_1",
+   "x": 1200,
+   "y": 0,
+   "w": 48,
+   "h": 64,
+   "anchor": {
+    "feet": [
+     24,
+     62
+    ],
+    "body_offset_x": 0
+   }
+  },
+  {
+   "name": "rosalinde_death_1",
+   "x": 1248,
+   "y": 0,
+   "w": 48,
+   "h": 64,
+   "anchor": {
+    "feet": [
+     24,
+     62
+    ],
+    "body_offset_x": 0
+   }
+  },
+  {
+   "name": "rosalinde_death_2",
+   "x": 1296,
+   "y": 0,
+   "w": 48,
+   "h": 64,
+   "anchor": {
+    "feet": [
+     24,
+     62
+    ],
+    "body_offset_x": 0
+   }
+  },
+  {
+   "name": "rosalinde_stairup_1",
+   "x": 1344,
+   "y": 0,
+   "w": 48,
+   "h": 64,
+   "anchor": {
+    "feet": [
+     24,
+     62
+    ],
+    "body_offset_x": 0
+   }
+  },
+  {
+   "name": "rosalinde_stairup_2",
+   "x": 1392,
+   "y": 0,
+   "w": 48,
+   "h": 64,
+   "anchor": {
+    "feet": [
+     24,
+     62
+    ],
+    "body_offset_x": 0
+   }
+  },
+  {
+   "name": "rosalinde_stairdown_1",
+   "x": 1440,
+   "y": 0,
+   "w": 48,
+   "h": 64,
+   "anchor": {
+    "feet": [
+     24,
+     62
+    ],
+    "body_offset_x": 0
+   }
+  },
+  {
+   "name": "rosalinde_stairdown_2",
+   "x": 1488,
+   "y": 0,
+   "w": 48,
+   "h": 64,
+   "anchor": {
+    "feet": [
+     24,
+     62
+    ],
+    "body_offset_x": 0
+   }
+  },
+  {
+   "name": "rosalinde_throw_1",
+   "x": 1536,
+   "y": 0,
+   "w": 48,
+   "h": 64,
+   "anchor": {
+    "feet": [
+     24,
+     62
+    ],
+    "body_offset_x": 0
+   }
+  },
+  {
+   "name": "rosalinde_throw_2",
+   "x": 1584,
+   "y": 0,
+   "w": 48,
+   "h": 64,
+   "anchor": {
+    "feet": [
+     24,
+     62
+    ],
+    "body_offset_x": 0
+   }
+  }
+ ],
+ "palette": [
+  "#000000",
+  "#1d120f",
+  "#861d2d",
+  "#eea468",
+  "#50141d",
+  "#332929",
+  "#995d35",
+  "#51381b",
+  "#122a09",
+  "#864128",
+  "#6c4a26",
+  "#681a23",
+  "#d58b54",
+  "#382812",
+  "#b87444",
+  "#380e14"
+ ]
+}

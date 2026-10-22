@@ -1,0 +1,122 @@
+{
+ "tile_size": 16,
+ "columns": 8,
+ "tiles": {
+  "0": {
+   "name": "floor_top",
+   "x": 0,
+   "y": 0,
+   "solid": true,
+   "stairs": null
+  },
+  "1": {
+   "name": "floor_fill",
+   "x": 16,
+   "y": 0,
+   "solid": true,
+   "stairs": null
+  },
+  "2": {
+   "name": "wall",
+   "x": 32,
+   "y": 0,
+   "solid": false,
+   "stairs": null
+  },
+  "3": {
+   "name": "brick",
+   "x": 48,
+   "y": 0,
+   "solid": true,
+   "stairs": null
+  },
+  "4": {
+   "name": "stair_right_up",
+   "x": 64,
+   "y": 0,
+   "solid": false,
+   "stairs": "right_up"
+  },
+  "5": {
+   "name": "stair_left_up",
+   "x": 80,
+   "y": 0,
+   "solid": false,
+   "stairs": "left_up"
+  },
+  "6": {
+   "name": "platform_left",
+   "x": 96,
+   "y": 0,
+   "solid": true,
+   "stairs": null
+  },
+  "7": {
+   "name": "platform_middle",
+   "x": 112,
+   "y": 0,
+   "solid": true,
+   "stairs": null
+  },
+  "8": {
+   "name": "platform_right",
+   "x": 0,
+   "y": 16,
+   "solid": true,
+   "stairs": null
+  },
+  "9": {
+   "name": "column_top",
+   "x": 16,
+   "y": 16,
+   "solid": false,
+   "stairs": null
+  },
+  "10": {
+   "name": "column_middle",
+   "x": 32,
+   "y": 16,
+   "solid": false,
+   "stairs": null
+  },
+  "11": {
+   "name": "column_base",
+   "x": 48,
+   "y": 16,
+   "solid": false,
+   "stairs": null
+  },
+  "12": {
+   "name": "window_top",
+   "x": 64,
+   "y": 16,
+   "solid": false,
+   "stairs": null
+  },
+  "13": {
+   "name": "window_bottom",
+   "x": 80,
+   "y": 16,
+   "solid": false,
+   "stairs": null
+  }
+ },
+ "palette": [
+  "#000000",
+  "#0e101a",
+  "#1d2232",
+  "#2c3246",
+  "#3e445c",
+  "#545c78",
+  "#707898",
+  "#96a0c8",
+  "#242c5c",
+  "#405092",
+  "#788cd2",
+  "#bec8f0",
+  "#18161e",
+  "#464254",
+  "#601822"
+ ],
+ "notes": "window is 1x2 (window_top above window_bottom). stairs: stair tiles are non-solid, stairs field gives direction; transparent above the steps. platform_* are one-way-able 8px slabs at the top of the tile."
+}

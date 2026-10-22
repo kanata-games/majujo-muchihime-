@@ -1,0 +1,97 @@
+{
+ "frames": {
+  "heart_small": {
+   "x": 0,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "anchor": [
+    8,
+    15
+   ]
+  },
+  "heart_big": {
+   "x": 16,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "anchor": [
+    8,
+    15
+   ]
+  },
+  "knife": {
+   "x": 32,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "anchor": [
+    8,
+    15
+   ]
+  },
+  "axe": {
+   "x": 48,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "anchor": [
+    8,
+    15
+   ]
+  },
+  "holywater": {
+   "x": 64,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "anchor": [
+    8,
+    15
+   ]
+  },
+  "goldbag": {
+   "x": 80,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "anchor": [
+    8,
+    15
+   ]
+  },
+  "boss_orb": {
+   "x": 96,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "anchor": [
+    8,
+    15
+   ]
+  }
+ },
+ "animations": {
+  "heart_small": [
+   "heart_small"
+  ],
+  "heart_big": [
+   "heart_big"
+  ],
+  "knife": [
+   "knife"
+  ],
+  "axe": [
+   "axe"
+  ],
+  "holywater": [
+   "holywater"
+  ],
+  "goldbag": [
+   "goldbag"
+  ],
+  "boss_orb": [
+   "boss_orb"
+  ]
+ }
+}

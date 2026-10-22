@@ -1,0 +1,23 @@
+{
+ "size": [
+  480,
+  270
+ ],
+ "layers": [
+  {
+   "name": "sky",
+   "file": "bg_sky.png",
+   "order": 0,
+   "parallax": 0.15,
+   "repeat_x": true
+  },
+  {
+   "name": "garden",
+   "file": "bg_garden.png",
+   "order": 1,
+   "parallax": 0.45,
+   "repeat_x": true
+  }
+ ],
+ "note": "sky is opaque (16 colours); garden is transparent above the hedges/iron arches (binary alpha, 15 colours + black outline) and is drawn over sky. Both loop horizontally at 480px."
+}

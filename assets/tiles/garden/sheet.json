@@ -1,0 +1,113 @@
+{
+ "tile_size": 16,
+ "columns": 8,
+ "tiles": {
+  "0": {
+   "name": "floor_top",
+   "x": 0,
+   "y": 0,
+   "solid": true,
+   "stairs": null,
+   "damage": 0
+  },
+  "1": {
+   "name": "floor_fill",
+   "x": 16,
+   "y": 0,
+   "solid": true,
+   "stairs": null,
+   "damage": 0
+  },
+  "2": {
+   "name": "hedge_wall",
+   "x": 32,
+   "y": 0,
+   "solid": true,
+   "stairs": null,
+   "damage": 0
+  },
+  "3": {
+   "name": "thorns",
+   "x": 48,
+   "y": 0,
+   "solid": false,
+   "stairs": null,
+   "damage": 1
+  },
+  "4": {
+   "name": "stair_right_up",
+   "x": 64,
+   "y": 0,
+   "solid": false,
+   "stairs": "right_up",
+   "damage": 0
+  },
+  "5": {
+   "name": "stair_left_up",
+   "x": 80,
+   "y": 0,
+   "solid": false,
+   "stairs": "left_up",
+   "damage": 0
+  },
+  "6": {
+   "name": "platform_left",
+   "x": 96,
+   "y": 0,
+   "solid": true,
+   "stairs": null,
+   "damage": 0
+  },
+  "7": {
+   "name": "platform_middle",
+   "x": 112,
+   "y": 0,
+   "solid": true,
+   "stairs": null,
+   "damage": 0
+  },
+  "8": {
+   "name": "platform_right",
+   "x": 0,
+   "y": 16,
+   "solid": true,
+   "stairs": null,
+   "damage": 0
+  },
+  "9": {
+   "name": "statue_pedestal",
+   "x": 16,
+   "y": 16,
+   "solid": true,
+   "stairs": null,
+   "damage": 0
+  },
+  "10": {
+   "name": "iron_fence",
+   "x": 32,
+   "y": 16,
+   "solid": false,
+   "stairs": null,
+   "damage": 0
+  }
+ },
+ "palette": [
+  "#000000",
+  "#0e101a",
+  "#1e2434",
+  "#2e364a",
+  "#424c64",
+  "#5c6884",
+  "#92a0c4",
+  "#10221c",
+  "#1c3a28",
+  "#305838",
+  "#568250",
+  "#6e101e",
+  "#c42834",
+  "#3c2416",
+  "#846038",
+  "#343242"
+ ],
+ "notes": "Area 2 garden. Same format as tiles/tiles.json plus \"damage\" (contact damage, thorns=1). stairs are non-solid, stairs field gives direction. platform_* are 8px slabs at the top. hedge_wall and statue_pedestal are solid blocks; iron_fence is a non-solid foreground/background decoration that tiles horizontally."
+}

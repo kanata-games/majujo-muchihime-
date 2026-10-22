@@ -1,0 +1,340 @@
+{
+ "frames": {
+  "effect_hit_1": {
+   "x": 0,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "anchor": {
+    "x": 8,
+    "y": 8,
+    "type": "center"
+   }
+  },
+  "effect_hit_2": {
+   "x": 16,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "anchor": {
+    "x": 8,
+    "y": 8,
+    "type": "center"
+   }
+  },
+  "effect_hit_3": {
+   "x": 32,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "anchor": {
+    "x": 8,
+    "y": 8,
+    "type": "center"
+   }
+  },
+  "effect_flame_1": {
+   "x": 0,
+   "y": 16,
+   "w": 16,
+   "h": 32,
+   "anchor": {
+    "x": 8,
+    "y": 31,
+    "type": "bottom"
+   }
+  },
+  "effect_flame_2": {
+   "x": 16,
+   "y": 16,
+   "w": 16,
+   "h": 32,
+   "anchor": {
+    "x": 8,
+    "y": 31,
+    "type": "bottom"
+   }
+  },
+  "effect_flame_3": {
+   "x": 32,
+   "y": 16,
+   "w": 16,
+   "h": 32,
+   "anchor": {
+    "x": 8,
+    "y": 31,
+    "type": "bottom"
+   }
+  },
+  "effect_flame_4": {
+   "x": 48,
+   "y": 16,
+   "w": 16,
+   "h": 32,
+   "anchor": {
+    "x": 8,
+    "y": 31,
+    "type": "bottom"
+   }
+  },
+  "effect_holyfire_1": {
+   "x": 0,
+   "y": 48,
+   "w": 16,
+   "h": 32,
+   "anchor": {
+    "x": 8,
+    "y": 31,
+    "type": "bottom"
+   }
+  },
+  "effect_holyfire_2": {
+   "x": 16,
+   "y": 48,
+   "w": 16,
+   "h": 32,
+   "anchor": {
+    "x": 8,
+    "y": 31,
+    "type": "bottom"
+   }
+  },
+  "effect_holyfire_3": {
+   "x": 32,
+   "y": 48,
+   "w": 16,
+   "h": 32,
+   "anchor": {
+    "x": 8,
+    "y": 31,
+    "type": "bottom"
+   }
+  },
+  "effect_smoke_1": {
+   "x": 0,
+   "y": 80,
+   "w": 16,
+   "h": 16,
+   "anchor": {
+    "x": 8,
+    "y": 15,
+    "type": "bottom"
+   }
+  },
+  "effect_smoke_2": {
+   "x": 16,
+   "y": 80,
+   "w": 16,
+   "h": 16,
+   "anchor": {
+    "x": 8,
+    "y": 15,
+    "type": "bottom"
+   }
+  },
+  "effect_smoke_3": {
+   "x": 32,
+   "y": 80,
+   "w": 16,
+   "h": 16,
+   "anchor": {
+    "x": 8,
+    "y": 15,
+    "type": "bottom"
+   }
+  },
+  "effect_explode_1": {
+   "x": 0,
+   "y": 96,
+   "w": 32,
+   "h": 32,
+   "anchor": {
+    "x": 16,
+    "y": 16,
+    "type": "center"
+   }
+  },
+  "effect_explode_2": {
+   "x": 32,
+   "y": 96,
+   "w": 32,
+   "h": 32,
+   "anchor": {
+    "x": 16,
+    "y": 16,
+    "type": "center"
+   }
+  },
+  "effect_explode_3": {
+   "x": 64,
+   "y": 96,
+   "w": 32,
+   "h": 32,
+   "anchor": {
+    "x": 16,
+    "y": 16,
+    "type": "center"
+   }
+  },
+  "effect_explode_4": {
+   "x": 96,
+   "y": 96,
+   "w": 32,
+   "h": 32,
+   "anchor": {
+    "x": 16,
+    "y": 16,
+    "type": "center"
+   }
+  },
+  "effect_sparkle_1": {
+   "x": 0,
+   "y": 128,
+   "w": 8,
+   "h": 8,
+   "anchor": {
+    "x": 4,
+    "y": 4,
+    "type": "center"
+   }
+  },
+  "effect_sparkle_2": {
+   "x": 8,
+   "y": 128,
+   "w": 8,
+   "h": 8,
+   "anchor": {
+    "x": 4,
+    "y": 4,
+    "type": "center"
+   }
+  },
+  "effect_altar_1": {
+   "x": 0,
+   "y": 136,
+   "w": 32,
+   "h": 32,
+   "anchor": {
+    "x": 16,
+    "y": 31,
+    "type": "bottom"
+   }
+  }
+ },
+ "animations": {
+  "hit": {
+   "frames": [
+    "effect_hit_1",
+    "effect_hit_2",
+    "effect_hit_3"
+   ],
+   "ms": [
+    50,
+    50,
+    60
+   ],
+   "loop": false
+  },
+  "flame": {
+   "frames": [
+    "effect_flame_1",
+    "effect_flame_2",
+    "effect_flame_3",
+    "effect_flame_4"
+   ],
+   "ms": [
+    70,
+    80,
+    80,
+    90
+   ],
+   "loop": false,
+   "palette_swap": {
+    "ramp": [
+     [
+      252,
+      252,
+      252
+     ],
+     [
+      252,
+      216,
+      96
+     ],
+     [
+      248,
+      120,
+      32
+     ],
+     [
+      200,
+      40,
+      24
+     ]
+    ],
+    "note": "replace these 4 RGB values for colour variants; outline stays"
+   }
+  },
+  "holyfire": {
+   "frames": [
+    "effect_holyfire_1",
+    "effect_holyfire_2",
+    "effect_holyfire_3"
+   ],
+   "ms": [
+    80,
+    80,
+    80
+   ],
+   "loop": true
+  },
+  "smoke": {
+   "frames": [
+    "effect_smoke_1",
+    "effect_smoke_2",
+    "effect_smoke_3"
+   ],
+   "ms": [
+    70,
+    80,
+    90
+   ],
+   "loop": false
+  },
+  "explode": {
+   "frames": [
+    "effect_explode_1",
+    "effect_explode_2",
+    "effect_explode_3",
+    "effect_explode_4"
+   ],
+   "ms": [
+    60,
+    80,
+    90,
+    110
+   ],
+   "loop": false
+  },
+  "sparkle": {
+   "frames": [
+    "effect_sparkle_1",
+    "effect_sparkle_2"
+   ],
+   "ms": [
+    200,
+    200
+   ],
+   "loop": true
+  },
+  "altar": {
+   "frames": [
+    "effect_altar_1"
+   ],
+   "ms": [
+    1000
+   ],
+   "loop": true
+  }
+ }
+}

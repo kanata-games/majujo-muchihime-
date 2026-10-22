@@ -1,0 +1,92 @@
+{
+ "frames": {
+  "phantombat_flap_1": {
+   "x": 0,
+   "y": 0,
+   "w": 96,
+   "h": 64,
+   "anchor": [
+    48,
+    63
+   ]
+  },
+  "phantombat_flap_2": {
+   "x": 96,
+   "y": 0,
+   "w": 96,
+   "h": 64,
+   "anchor": [
+    48,
+    63
+   ]
+  },
+  "phantombat_flap_3": {
+   "x": 192,
+   "y": 0,
+   "w": 96,
+   "h": 64,
+   "anchor": [
+    48,
+    63
+   ]
+  },
+  "phantombat_dive_1": {
+   "x": 288,
+   "y": 0,
+   "w": 96,
+   "h": 64,
+   "anchor": [
+    48,
+    63
+   ]
+  },
+  "phantombat_defeat_1": {
+   "x": 384,
+   "y": 0,
+   "w": 96,
+   "h": 64,
+   "anchor": [
+    48,
+    63
+   ]
+  },
+  "fireball_1": {
+   "x": 480,
+   "y": 0,
+   "w": 12,
+   "h": 12,
+   "anchor": [
+    6,
+    6
+   ]
+  },
+  "fireball_2": {
+   "x": 492,
+   "y": 0,
+   "w": 12,
+   "h": 12,
+   "anchor": [
+    6,
+    6
+   ]
+  }
+ },
+ "animations": {
+  "flap": [
+   "phantombat_flap_1",
+   "phantombat_flap_2",
+   "phantombat_flap_3"
+  ],
+  "dive": [
+   "phantombat_dive_1"
+  ],
+  "defeat": [
+   "phantombat_defeat_1"
+  ],
+  "fireball": [
+   "fireball_1",
+   "fireball_2"
+  ]
+ },
+ "facing": "right"
+}

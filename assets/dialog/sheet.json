@@ -1,0 +1,24 @@
+{
+ "frames": {
+  "witch_face": {
+   "x": 0,
+   "y": 0,
+   "w": 64,
+   "h": 64,
+   "anchor": [
+    0,
+    0
+   ]
+  }
+ },
+ "animations": {
+  "witch_face": {
+   "frames": [
+    "witch_face"
+   ],
+   "ms": 100,
+   "loop": false
+  }
+ },
+ "notes": "64x64 dialogue portrait of 茨の魔女, transparent background, anchor top-left. Faces slightly left (toward the player on the left side of a dialog box, flip if needed)."
+}

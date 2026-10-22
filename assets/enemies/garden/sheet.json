@@ -1,0 +1,209 @@
+{
+ "frames": {
+  "rose_idle_1": {
+   "x": 0,
+   "y": 0,
+   "w": 32,
+   "h": 32,
+   "anchor": [
+    16,
+    31
+   ]
+  },
+  "rose_idle_2": {
+   "x": 32,
+   "y": 0,
+   "w": 32,
+   "h": 32,
+   "anchor": [
+    16,
+    31
+   ]
+  },
+  "rose_spit_1": {
+   "x": 64,
+   "y": 0,
+   "w": 32,
+   "h": 32,
+   "anchor": [
+    16,
+    31
+   ]
+  },
+  "rose_spit_2": {
+   "x": 96,
+   "y": 0,
+   "w": 32,
+   "h": 32,
+   "anchor": [
+    16,
+    31
+   ]
+  },
+  "seed": {
+   "x": 128,
+   "y": 0,
+   "w": 8,
+   "h": 8,
+   "anchor": [
+    4,
+    4
+   ]
+  },
+  "gargoyle_statue_1": {
+   "x": 136,
+   "y": 0,
+   "w": 32,
+   "h": 32,
+   "anchor": [
+    16,
+    31
+   ]
+  },
+  "gargoyle_fly_1": {
+   "x": 168,
+   "y": 0,
+   "w": 32,
+   "h": 32,
+   "anchor": [
+    16,
+    31
+   ]
+  },
+  "gargoyle_fly_2": {
+   "x": 200,
+   "y": 0,
+   "w": 32,
+   "h": 32,
+   "anchor": [
+    16,
+    31
+   ]
+  },
+  "crow_flap_1": {
+   "x": 232,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "anchor": [
+    8,
+    15
+   ]
+  },
+  "crow_flap_2": {
+   "x": 248,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "anchor": [
+    8,
+    15
+   ]
+  },
+  "thornsoldier_walk_1": {
+   "x": 264,
+   "y": 0,
+   "w": 48,
+   "h": 48,
+   "anchor": [
+    24,
+    47
+   ]
+  },
+  "thornsoldier_walk_2": {
+   "x": 312,
+   "y": 0,
+   "w": 48,
+   "h": 48,
+   "anchor": [
+    24,
+    47
+   ]
+  },
+  "thornsoldier_thrust_1": {
+   "x": 360,
+   "y": 0,
+   "w": 48,
+   "h": 48,
+   "anchor": [
+    24,
+    47
+   ]
+  },
+  "thornsoldier_thrust_2": {
+   "x": 408,
+   "y": 0,
+   "w": 48,
+   "h": 48,
+   "anchor": [
+    24,
+    47
+   ]
+  }
+ },
+ "animations": {
+  "rose_idle": {
+   "frames": [
+    "rose_idle_1",
+    "rose_idle_2"
+   ],
+   "ms": 300,
+   "loop": true
+  },
+  "rose_spit": {
+   "frames": [
+    "rose_spit_1",
+    "rose_spit_2"
+   ],
+   "ms": 150,
+   "loop": false
+  },
+  "seed": {
+   "frames": [
+    "seed"
+   ],
+   "ms": 100,
+   "loop": true
+  },
+  "gargoyle_statue": {
+   "frames": [
+    "gargoyle_statue_1"
+   ],
+   "ms": 100,
+   "loop": false
+  },
+  "gargoyle_fly": {
+   "frames": [
+    "gargoyle_fly_1",
+    "gargoyle_fly_2"
+   ],
+   "ms": 150,
+   "loop": true
+  },
+  "crow_flap": {
+   "frames": [
+    "crow_flap_1",
+    "crow_flap_2"
+   ],
+   "ms": 120,
+   "loop": true
+  },
+  "thornsoldier_walk": {
+   "frames": [
+    "thornsoldier_walk_1",
+    "thornsoldier_walk_2"
+   ],
+   "ms": 250,
+   "loop": true
+  },
+  "thornsoldier_thrust": {
+   "frames": [
+    "thornsoldier_thrust_1",
+    "thornsoldier_thrust_2"
+   ],
+   "ms": 150,
+   "loop": false
+  }
+ },
+ "notes": "all face right; anchor = bottom centre (seed: centre). thornsoldier cells are 48x48 (spear thrust needs width); body is centred on x=24, so anchor (24,47). rose spits from the mouth at about (28,8) of rose_spit_2."
+}

@@ -1,0 +1,52 @@
+{
+ "frames": {
+  "lantern_1": {
+   "x": 0,
+   "y": 0,
+   "w": 16,
+   "h": 32,
+   "anchor": [
+    8,
+    31
+   ]
+  },
+  "lantern_2": {
+   "x": 16,
+   "y": 0,
+   "w": 16,
+   "h": 32,
+   "anchor": [
+    8,
+    31
+   ]
+  },
+  "lantern_broken": {
+   "x": 32,
+   "y": 0,
+   "w": 16,
+   "h": 32,
+   "anchor": [
+    8,
+    31
+   ]
+  }
+ },
+ "animations": {
+  "lantern": {
+   "frames": [
+    "lantern_1",
+    "lantern_2"
+   ],
+   "ms": 200,
+   "loop": true
+  },
+  "lantern_broken": {
+   "frames": [
+    "lantern_broken"
+   ],
+   "ms": 100,
+   "loop": false
+  }
+ },
+ "notes": "garden replacement for candle: same size/anchor as objects/candle (16x32, anchor (8,31)). Use effect_flame on break, then show lantern_broken."
+}

@@ -1,0 +1,176 @@
+{
+ "frames": {
+  "skeleton_walk_1": {
+   "x": 0,
+   "y": 0,
+   "w": 32,
+   "h": 48,
+   "anchor": [
+    16,
+    47
+   ]
+  },
+  "skeleton_walk_2": {
+   "x": 32,
+   "y": 0,
+   "w": 32,
+   "h": 48,
+   "anchor": [
+    16,
+    47
+   ]
+  },
+  "skeleton_throw_1": {
+   "x": 64,
+   "y": 0,
+   "w": 32,
+   "h": 48,
+   "anchor": [
+    16,
+    47
+   ]
+  },
+  "skeleton_throw_2": {
+   "x": 96,
+   "y": 0,
+   "w": 32,
+   "h": 48,
+   "anchor": [
+    16,
+    47
+   ]
+  },
+  "skeleton_crumble_1": {
+   "x": 128,
+   "y": 0,
+   "w": 32,
+   "h": 48,
+   "anchor": [
+    16,
+    47
+   ]
+  },
+  "skeleton_crumble_2": {
+   "x": 160,
+   "y": 0,
+   "w": 32,
+   "h": 48,
+   "anchor": [
+    16,
+    47
+   ]
+  },
+  "bone": {
+   "x": 192,
+   "y": 0,
+   "w": 8,
+   "h": 8,
+   "anchor": [
+    4,
+    4
+   ]
+  },
+  "bat_flap_1": {
+   "x": 200,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "anchor": [
+    8,
+    15
+   ]
+  },
+  "bat_flap_2": {
+   "x": 216,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "anchor": [
+    8,
+    15
+   ]
+  },
+  "zombie_rise_1": {
+   "x": 232,
+   "y": 0,
+   "w": 32,
+   "h": 48,
+   "anchor": [
+    16,
+    47
+   ]
+  },
+  "zombie_rise_2": {
+   "x": 264,
+   "y": 0,
+   "w": 32,
+   "h": 48,
+   "anchor": [
+    16,
+    47
+   ]
+  },
+  "zombie_rise_3": {
+   "x": 296,
+   "y": 0,
+   "w": 32,
+   "h": 48,
+   "anchor": [
+    16,
+    47
+   ]
+  },
+  "zombie_walk_1": {
+   "x": 328,
+   "y": 0,
+   "w": 32,
+   "h": 48,
+   "anchor": [
+    16,
+    47
+   ]
+  },
+  "zombie_walk_2": {
+   "x": 360,
+   "y": 0,
+   "w": 32,
+   "h": 48,
+   "anchor": [
+    16,
+    47
+   ]
+  }
+ },
+ "animations": {
+  "skeleton_walk": [
+   "skeleton_walk_1",
+   "skeleton_walk_2"
+  ],
+  "skeleton_throw": [
+   "skeleton_throw_1",
+   "skeleton_throw_2"
+  ],
+  "skeleton_crumble": [
+   "skeleton_crumble_1",
+   "skeleton_crumble_2"
+  ],
+  "bone": [
+   "bone"
+  ],
+  "bat_flap": [
+   "bat_flap_1",
+   "bat_flap_2"
+  ],
+  "zombie_rise": [
+   "zombie_rise_1",
+   "zombie_rise_2",
+   "zombie_rise_3"
+  ],
+  "zombie_walk": [
+   "zombie_walk_1",
+   "zombie_walk_2"
+  ]
+ },
+ "facing": "right",
+ "note": "anchor = bottom centre (bone/bat: bone centre, bat anchor bottom centre of 16x16)"
+}

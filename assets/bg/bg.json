@@ -1,0 +1,23 @@
+{
+ "size": [
+  480,
+  270
+ ],
+ "layers": [
+  {
+   "name": "far",
+   "file": "bg_far.png",
+   "order": 0,
+   "parallax": 0.2,
+   "repeat_x": true
+  },
+  {
+   "name": "wall",
+   "file": "bg_wall.png",
+   "order": 1,
+   "parallax": 0.5,
+   "repeat_x": true
+  }
+ ],
+ "note": "opaque, 16 colours each; wall drawn over far (wall is opaque, so far is only visible where the wall layer is not used)"
+}

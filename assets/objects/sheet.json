@@ -1,0 +1,43 @@
+{
+ "frames": {
+  "candle_1": {
+   "x": 0,
+   "y": 0,
+   "w": 16,
+   "h": 32,
+   "anchor": [
+    8,
+    31
+   ]
+  },
+  "candle_2": {
+   "x": 16,
+   "y": 0,
+   "w": 16,
+   "h": 32,
+   "anchor": [
+    8,
+    31
+   ]
+  },
+  "candle_broken": {
+   "x": 32,
+   "y": 0,
+   "w": 16,
+   "h": 32,
+   "anchor": [
+    8,
+    31
+   ]
+  }
+ },
+ "animations": {
+  "candle": [
+   "candle_1",
+   "candle_2"
+  ],
+  "broken": [
+   "candle_broken"
+  ]
+ }
+}
