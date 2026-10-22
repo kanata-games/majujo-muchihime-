@@ -3,7 +3,7 @@ import time
 with sync_playwright() as p:
   b=p.chromium.launch();pg=b.new_page(viewport={'width':844,'height':390},is_mobile=True,has_touch=True,device_scale_factor=2)
   errs=[];pg.on('pageerror',lambda e:errs.append(str(e)));pg.on('console',lambda m:m.type=='error' and errs.append(m.text))
-  pg.goto('file://'+__import__('os').path.dirname(__import__('os').path.abspath(__file__))+'/index.html');time.sleep(1.2)
+  pg.goto('file:///workspace/akumajo/index.html');time.sleep(1.2)
   pg.screenshot(path='screenshots/01_title.png')
   pg.evaluate('__G.startGame()');time.sleep(.5)
   pg.evaluate('__G.K.r=1');time.sleep(2.5);pg.evaluate('__G.K.r=0;__G.K.a=1');time.sleep(0.22)

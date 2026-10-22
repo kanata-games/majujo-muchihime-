@@ -4,7 +4,7 @@ def tap(pg,k,d=.12):pg.evaluate(f'__G.K.{k}=1');time.sleep(d);pg.evaluate(f'__G.
 with sync_playwright() as p:
   b=p.chromium.launch();pg=b.new_page(viewport={'width':844,'height':390},is_mobile=True,has_touch=True,device_scale_factor=2)
   errs=[];pg.on('pageerror',lambda e:errs.append(str(e)));pg.on('console',lambda m:m.type=='error' and errs.append(m.text))
-  pg.goto('file://'+__import__('os').path.dirname(__import__('os').path.abspath(__file__))+'/index.html');time.sleep(1);pg.evaluate('__G.startGame()');time.sleep(.3)
+  pg.goto('file:///workspace/akumajo/index.html');time.sleep(1);pg.evaluate('__G.startGame()');time.sleep(.3)
   # stage 1 boss -> orb -> stage clear
   pg.evaluate('__G.s.pl.inv=99999;__G.s.pl.sub="axe";__G.s.pl.hearts=33;__G.setGold(777);__G.s.up.whip=2;__G.s.pl.stair=null;__G.setX(117*16,176)');time.sleep(2.5)
   pg.evaluate('__G.s.boss.hp=0;__G.s.boss.dead=1;__G.s.boss.t=0');time.sleep(3)
